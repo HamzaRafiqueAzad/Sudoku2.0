@@ -168,9 +168,6 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
                         print(self.iArr[indexPath.section][indexPath.item])
                         self.gameCount += 1
                         self.scoring(color: UIColor.green)
-                        if self.gameCount == 5 {
-                            self.performSegue(withIdentifier: "Result", sender: self)
-                        }
                         if self.gameCount == self.count {
                             self.timer.invalidate()
                             self.performSegue(withIdentifier: "Result", sender: self)

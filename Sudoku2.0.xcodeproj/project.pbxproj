@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -68,7 +68,6 @@
 				BC19AEBD35248B1C4946D145 /* Pods-Sudoku2.0.debug.xcconfig */,
 				DA46190B3747266E06E54B26 /* Pods-Sudoku2.0.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -387,6 +386,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4GVR9352YB;
 				INFOPLIST_FILE = Sudoku2.0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -405,6 +405,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4GVR9352YB;
 				INFOPLIST_FILE = Sudoku2.0/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
