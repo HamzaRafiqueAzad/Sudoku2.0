@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A0BF65B48D5D5274E595BF4 /* Pods_Sudoku2_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9523F453FE3094691E6FD0E4 /* Pods_Sudoku2_0.framework */; };
+		F188916B24705DC200E0E881 /* Scoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = F188916A24705DC200E0E881 /* Scoring.swift */; };
 		F18E5D17246C874100696C9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E5D16246C874100696C9F /* AppDelegate.swift */; };
 		F18E5D19246C874100696C9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E5D18246C874100696C9F /* SceneDelegate.swift */; };
 		F18E5D1B246C874100696C9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E5D1A246C874100696C9F /* ViewController.swift */; };
-		F18E5D1E246C874100696C9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18E5D1C246C874100696C9F /* Main.storyboard */; };
 		F18E5D20246C874600696C9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F18E5D1F246C874600696C9F /* Assets.xcassets */; };
 		F18E5D23246C874600696C9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18E5D21246C874600696C9F /* LaunchScreen.storyboard */; };
+		F18E5D2B246C8A9600696C9F /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E5D2A246C8A9600696C9F /* CollectionViewCell.swift */; };
+		F18E5D2D246C938500696C9F /* GridData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E5D2C246C938500696C9F /* GridData.swift */; };
+		F18E5D2F246C956400696C9F /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18E5D2E246C956400696C9F /* Grid.swift */; };
+		F1EB1C40246F25A500EDB995 /* InitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EB1C3F246F25A500EDB995 /* InitialView.swift */; };
+		F1EB1C42246F53B700EDB995 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EB1C41246F53B700EDB995 /* ResultView.swift */; };
+		F1EB1C44246F686B00EDB995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1EB1C43246F686B00EDB995 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9523F453FE3094691E6FD0E4 /* Pods_Sudoku2_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sudoku2_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC19AEBD35248B1C4946D145 /* Pods-Sudoku2.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sudoku2.0.debug.xcconfig"; path = "Target Support Files/Pods-Sudoku2.0/Pods-Sudoku2.0.debug.xcconfig"; sourceTree = "<group>"; };
+		DA46190B3747266E06E54B26 /* Pods-Sudoku2.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sudoku2.0.release.xcconfig"; path = "Target Support Files/Pods-Sudoku2.0/Pods-Sudoku2.0.release.xcconfig"; sourceTree = "<group>"; };
+		F188916A24705DC200E0E881 /* Scoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scoring.swift; sourceTree = "<group>"; };
 		F18E5D13246C874100696C9F /* Sudoku2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sudoku2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F18E5D16246C874100696C9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F18E5D18246C874100696C9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F18E5D1A246C874100696C9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F18E5D1D246C874100696C9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F18E5D1F246C874600696C9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F18E5D22246C874600696C9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F18E5D24246C874600696C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F18E5D2A246C8A9600696C9F /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		F18E5D2C246C938500696C9F /* GridData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridData.swift; sourceTree = "<group>"; };
+		F18E5D2E246C956400696C9F /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		F1EB1C3F246F25A500EDB995 /* InitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialView.swift; sourceTree = "<group>"; };
+		F1EB1C41246F53B700EDB995 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		F1EB1C43246F686B00EDB995 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A0BF65B48D5D5274E595BF4 /* Pods_Sudoku2_0.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A5759434ED3B70A43B9B5E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9523F453FE3094691E6FD0E4 /* Pods_Sudoku2_0.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9EC7B38D34DA683A69C2D65 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC19AEBD35248B1C4946D145 /* Pods-Sudoku2.0.debug.xcconfig */,
+				DA46190B3747266E06E54B26 /* Pods-Sudoku2.0.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F18E5D0A246C874100696C9F = {
 			isa = PBXGroup;
 			children = (
 				F18E5D15246C874100696C9F /* Sudoku2.0 */,
 				F18E5D14246C874100696C9F /* Products */,
+				E9EC7B38D34DA683A69C2D65 /* Pods */,
+				7A5759434ED3B70A43B9B5E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +95,35 @@
 			children = (
 				F18E5D16246C874100696C9F /* AppDelegate.swift */,
 				F18E5D18246C874100696C9F /* SceneDelegate.swift */,
-				F18E5D1A246C874100696C9F /* ViewController.swift */,
-				F18E5D1C246C874100696C9F /* Main.storyboard */,
+				F1EB1C3C246DB92E00EDB995 /* Views */,
 				F18E5D1F246C874600696C9F /* Assets.xcassets */,
+				F1EB1C43246F686B00EDB995 /* Main.storyboard */,
 				F18E5D21246C874600696C9F /* LaunchScreen.storyboard */,
 				F18E5D24246C874600696C9F /* Info.plist */,
+				F1EB1C3B246DB92600EDB995 /* Models */,
 			);
 			path = Sudoku2.0;
+			sourceTree = "<group>";
+		};
+		F1EB1C3B246DB92600EDB995 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F18E5D2C246C938500696C9F /* GridData.swift */,
+				F18E5D2E246C956400696C9F /* Grid.swift */,
+				F188916A24705DC200E0E881 /* Scoring.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F1EB1C3C246DB92E00EDB995 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F18E5D1A246C874100696C9F /* ViewController.swift */,
+				F18E5D2A246C8A9600696C9F /* CollectionViewCell.swift */,
+				F1EB1C3F246F25A500EDB995 /* InitialView.swift */,
+				F1EB1C41246F53B700EDB995 /* ResultView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +133,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F18E5D27246C874600696C9F /* Build configuration list for PBXNativeTarget "Sudoku2.0" */;
 			buildPhases = (
+				F69DD7E8D403C5C3E5FBF641 /* [CP] Check Pods Manifest.lock */,
 				F18E5D0F246C874100696C9F /* Sources */,
 				F18E5D10246C874100696C9F /* Frameworks */,
 				F18E5D11246C874100696C9F /* Resources */,
+				7CCD01DD99EF43AF55862074 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,13 +186,55 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1EB1C44246F686B00EDB995 /* Main.storyboard in Resources */,
 				F18E5D23246C874600696C9F /* LaunchScreen.storyboard in Resources */,
 				F18E5D20246C874600696C9F /* Assets.xcassets in Resources */,
-				F18E5D1E246C874100696C9F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7CCD01DD99EF43AF55862074 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sudoku2.0/Pods-Sudoku2.0-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sudoku2.0/Pods-Sudoku2.0-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sudoku2.0/Pods-Sudoku2.0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F69DD7E8D403C5C3E5FBF641 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sudoku2.0-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F18E5D0F246C874100696C9F /* Sources */ = {
@@ -140,21 +243,19 @@
 			files = (
 				F18E5D1B246C874100696C9F /* ViewController.swift in Sources */,
 				F18E5D17246C874100696C9F /* AppDelegate.swift in Sources */,
+				F18E5D2B246C8A9600696C9F /* CollectionViewCell.swift in Sources */,
+				F18E5D2D246C938500696C9F /* GridData.swift in Sources */,
 				F18E5D19246C874100696C9F /* SceneDelegate.swift in Sources */,
+				F188916B24705DC200E0E881 /* Scoring.swift in Sources */,
+				F1EB1C42246F53B700EDB995 /* ResultView.swift in Sources */,
+				F1EB1C40246F25A500EDB995 /* InitialView.swift in Sources */,
+				F18E5D2F246C956400696C9F /* Grid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F18E5D1C246C874100696C9F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F18E5D1D246C874100696C9F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F18E5D21246C874600696C9F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +383,7 @@
 		};
 		F18E5D28246C874600696C9F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC19AEBD35248B1C4946D145 /* Pods-Sudoku2.0.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +401,7 @@
 		};
 		F18E5D29246C874600696C9F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA46190B3747266E06E54B26 /* Pods-Sudoku2.0.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
